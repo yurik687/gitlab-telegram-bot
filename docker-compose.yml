@@ -1,0 +1,6 @@
+gitlab-telegrem-bot:
+  container_name: telegrem_bot
+  build: .
+  ports:
+    - 10111:10111
+  
